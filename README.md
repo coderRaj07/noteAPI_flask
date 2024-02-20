@@ -31,18 +31,7 @@ POST localhost:5000/notes/share
 GET localhost:5000/notes/version-history/65d38c1fee456d6aeb5f5ac2
 ```
 
-**3. POST /notes/share**
-
-**Description:** Share a note.
-
-**Request Payload:** _(Payload details not provided)_
-
-**Example Request:**
-```
-POST localhost:5000/notes/share
-```
-
-**4. PUT /notes/{noteId}**
+**3. PUT /notes/{noteId}**
 
 **Description:** Update the content of a note.
 
@@ -60,7 +49,7 @@ PUT localhost:5000/notes/65d38c1fee456d6aeb5f5ac2
 }
 ```
 
-**5. GET /notes/{noteId}**
+**4. GET /notes/{noteId}**
 
 **Description:** Get the details of a note.
 
@@ -72,7 +61,7 @@ PUT localhost:5000/notes/65d38c1fee456d6aeb5f5ac2
 GET localhost:5000/notes/65d38c1fee456d6aeb5f5ac2
 ```
 
-**6. POST /notes/create**
+**5. POST /notes/create**
 
 **Description:** Create a new note.
 
