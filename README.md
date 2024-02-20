@@ -137,7 +137,7 @@ To run the APIs, follow these instructions:
 5. Once the server is running, you can test the endpoints using tools like Postman or by sending HTTP requests programmatically.
 
 
-6. **Running Tests:**
+**Running Tests:**
 
 To run the tests, execute the following command inside the virtual environment:
 ```
