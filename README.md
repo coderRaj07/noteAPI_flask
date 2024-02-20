@@ -1,5 +1,3 @@
-**Readme File**
-
 **Testing Endpoints:**
 
 Below are the instructions to test the endpoints of your Flask application. These commands should be run inside the virtual environment (`venv`) to ensure proper isolation and dependency management.
