@@ -136,6 +136,15 @@ To run the APIs, follow these instructions:
 
 5. Once the server is running, you can test the endpoints using tools like Postman or by sending HTTP requests programmatically.
 
+
+6. **Running Tests:**
+
+To run the tests, execute the following command inside the virtual environment:
+```
+python3 -W "ignore::DeprecationWarning" test_app.py
+```
+
+
 **Note:** Replace `localhost:5000` with the appropriate host and port if your Flask application is running on a different address.
 
 **Make sure to secure your endpoints and handle sensitive data appropriately, especially when dealing with authentication and user data.**
